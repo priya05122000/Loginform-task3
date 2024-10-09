@@ -1,0 +1,98 @@
+.section {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    height: 90%;
+    width: 80%;
+    /* background-color: blue; */
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.block1 {
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+    display: grid;
+    place-items: center;
+}
+
+.getdetails {
+    /* height: 95%; */
+    /* background-color: bisque; */
+    width: 80%;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+select,
+textarea {
+    width: 100%;
+    padding: 8px 10px ;
+    margin: 8px 0 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+    outline: none;
+}
+
+#checkbox,
+#radio {
+    margin: 8px 0;
+}
+
+#checkbox label,
+#radio label {
+    margin-right: 20px;
+    /* font-size: 13px; */
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #87a798;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.block2 {
+    height: 100%;
+    width: 50%;
+    background-color: #87a798;
+    display: grid;
+    place-items: center;
+}
+
+.displaydetails {
+    height: 95%;
+    /* background-color: bisque; */
+    color: white;
+    width: 80%;
+    font-size: 13px;
+}
+
+.displaydetails span{
+    color: black;
+    text-transform: uppercase;
+}
